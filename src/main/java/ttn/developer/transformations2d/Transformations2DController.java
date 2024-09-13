@@ -352,9 +352,9 @@ public class Transformations2DController implements Initializable {
     @FXML
     public void clearTableAction() {
         coordinatesTableView.getItems().clear();
-        clearCanvasAction();
     }
 
+    @FXML
     private void clearCanvasAction() {
         graphicsContext.clearRect(0, 0, canvas.getWidth(), canvas.getHeight());
         drawPlane();

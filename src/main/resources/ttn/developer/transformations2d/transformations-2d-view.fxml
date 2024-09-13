@@ -32,6 +32,11 @@
                   <Insets left="10.0" right="10.0" />
                </VBox.margin>
             </TableView>
+            <Button mnemonicParsing="false" onAction="#clearCanvasAction" text="Limpiar gráfico">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Button>
             <Button fx:id="clearTableButton" mnemonicParsing="false" onAction="#clearTableAction" text="Limpiar puntos">
                <VBox.margin>
                   <Insets bottom="20.0" top="10.0" />
@@ -109,7 +114,7 @@
              </HBox>
             <HBox alignment="CENTER" prefHeight="51.0" prefWidth="200.0">
                <children>
-                  <Label text="Coordenada:">
+                  <Label text="Eje:">
                      <HBox.margin>
                         <Insets right="5.0" />
                      </HBox.margin>
